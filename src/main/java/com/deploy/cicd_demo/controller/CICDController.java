@@ -8,7 +8,7 @@ public class CICDController {
 	
 	@GetMapping("/")
 	public String automate() {
-		return "Automated Deployment Using CICD ..";
+		return "Automated Deployment Using CICD";
 	}
 
 }
